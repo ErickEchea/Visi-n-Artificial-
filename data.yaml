@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['llave-auto']
+
+roboflow:
+  workspace: erick-5hjsk
+  project: llave-auto
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/erick-5hjsk/llave-auto/dataset/1

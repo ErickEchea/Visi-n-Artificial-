@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <defs>
+    <linearGradient id="fondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#121a36"/>
+      <stop offset="1" stop-color="#1b1140"/>
+    </linearGradient>
+    <linearGradient id="titulo" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/>
+      <stop offset="1" stop-color="#a78bfa"/>
+    </linearGradient>
+    <pattern id="rejilla" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#ffffff" stroke-opacity="0.04"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="300" rx="18" fill="url(#fondo)"/>
+  <rect width="1200" height="300" rx="18" fill="url(#rejilla)"/>
+
+  <!-- cajas de deteccion decorativas -->
+  <g fill="none" stroke-width="3" stroke-linecap="round">
+    <g stroke="#5eead4">
+      <path d="M842 70h22M842 70v22M968 70h-22M968 70v22M842 196h22M842 196v-22M968 196h-22M968 196v-22"/>
+      <rect x="842" y="70" width="126" height="126" stroke-opacity="0.35" stroke-width="1.5"/>
+    </g>
+    <g stroke="#a78bfa">
+      <path d="M1000 120h18M1000 120v18M1110 120h-18M1110 120v18M1000 236h18M1000 236v-18M1110 236h-18M1110 236v-18"/>
+      <rect x="1000" y="120" width="110" height="116" stroke-opacity="0.35" stroke-width="1.5"/>
+    </g>
+    <g stroke="#f472b6">
+      <path d="M900 214h14M900 214v14M980 214h-14M980 214v14M900 270h14M900 270v-14M980 270h-14M980 270v-14"/>
+    </g>
+  </g>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">
+    <rect x="842" y="48" width="150" height="22" rx="4" fill="#5eead4"/>
+    <text x="850" y="64" fill="#0b1020">Llave de auto 96% [IA]</text>
+    <rect x="1000" y="98" width="112" height="22" rx="4" fill="#a78bfa"/>
+    <text x="1008" y="114" fill="#0b1020">Audífonos 91%</text>
+    <rect x="900" y="192" width="92" height="22" rx="4" fill="#f472b6"/>
+    <text x="908" y="208" fill="#0b1020">Mouse 88%</text>
+  </g>
+
+  <!-- texto -->
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="64" y="128" font-size="68" font-weight="800" fill="url(#titulo)">Visión IA</text>
+    <text x="66" y="172" font-size="24" fill="#e2e8f0">Detección inteligente de objetos en tiempo real</text>
+    <text x="66" y="206" font-size="17" fill="#94a3b8">YOLO11 · YOLOE · CLIP · ByteTrack · Roboflow — todo en español</text>
+    <g font-size="14" font-weight="600">
+      <rect x="66" y="230" width="96" height="30" rx="15" fill="#5eead4" fill-opacity="0.12" stroke="#5eead4" stroke-opacity="0.5"/>
+      <text x="114" y="250" text-anchor="middle" fill="#5eead4">Cámara</text>
+      <rect x="172" y="230" width="86" height="30" rx="15" fill="#a78bfa" fill-opacity="0.12" stroke="#a78bfa" stroke-opacity="0.5"/>
+      <text x="215" y="250" text-anchor="middle" fill="#c4b5fd">Video</text>
+      <rect x="268" y="230" width="150" height="30" rx="15" fill="#f472b6" fill-opacity="0.12" stroke="#f472b6" stroke-opacity="0.5"/>
+      <text x="343" y="250" text-anchor="middle" fill="#f9a8d4">GPU · CUDA FP16</text>
+    </g>
+  </g>
+</svg>

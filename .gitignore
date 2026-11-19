@@ -1,0 +1,29 @@
+# ── Secretos ──────────────────────────────────────
+roboflow_key.txt
+.env
+
+# ── Pesos de modelos (se descargan solos al ejecutar) ──
+*.pt
+*.ts
+*.onnx
+*.engine
+
+# ── Videos, resultados y capturas ─────────────────
+*.mp4
+*.mov
+*.avi
+*.mkv
+resultados/
+capturas/
+
+# ── Copias / archivos locales ─────────────────────
+_respaldo_original/
+imagenes_video/
+*.zip
+debug_frame.jpg
+
+# ── Python ────────────────────────────────────────
+__pycache__/
+*.pyc
+.venv/
+venv/
